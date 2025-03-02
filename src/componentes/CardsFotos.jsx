@@ -18,6 +18,9 @@ export default function CardsFotos(){
             <div className="col-start-1 md:col-start-1 lg:col-start-2 transform transition duration-500 hover:scale-105 flex">
             <Card ruta="/fotosCardFotos/feria.jpg" texto="Feria" enlace="/foto/estilo/feria"/>
             </div>
+            <div className="col-start-1 md:col-start-1 lg:col-start-3 transform transition duration-500 hover:scale-105 flex">
+            <Card ruta="/fotosCardFotos/cruces.jpg" texto="Cruces" enlace="/foto/estilo/cruces"/>
+            </div>
         </div>
     );
 }
