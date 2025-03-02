@@ -43,17 +43,15 @@ export default function Contact () {
         }
       )
   }
-//grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2
+  //grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2
   return (
     <div>
       <div className=' flex flex-col lg:flex-row-reverse'>
-        
-
         <div className='w-fit mx-auto col-start-1 mt-7 sm:mt-7 lg:col-start-2'>
           <ContactFoto />
-          <Footer/>
+          <Footer />
           <p className='w-fit mx-auto  my-8 mont'>
-            Contratame! Quiero trabajar de vez en cuando
+            Hazme saber cualquier cosa!
           </p>
         </div>
         <div className='w-fit mx-auto col-start-1 pl-7 flex'>
@@ -118,9 +116,7 @@ export default function Contact () {
             </form>
           </div>
         </div>
-        
       </div>
-      
     </div>
   )
 }
